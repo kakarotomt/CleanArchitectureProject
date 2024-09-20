@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\auditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\auditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\documenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\lastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\lastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\usersapp.domain\\users\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC5952-C3C4-4F19-B217-2A33ECC62050}|UsersApp.Domain\\UsersApp.Domain.csproj|solutionrelative:usersapp.domain\\users\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditData.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\AuditData.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\AuditData.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\AuditData.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\AuditData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:07:17.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\User.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:07:14.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentType.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\DocumentType.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\DocumentType.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\DocumentType.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\DocumentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:07:10.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\IUserRepository.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:06:58.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lastname.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\Lastname.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\Lastname.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\Lastname.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\Lastname.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:06:56.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Name.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\Name.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\Name.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\Name.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\Name.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:06:40.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\UserData.cs",
+              "RelativeDocumentMoniker": "UsersApp.Domain\\Users\\UserData.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\Users\\UserData.cs",
+              "RelativeToolTip": "UsersApp.Domain\\Users\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:06:31.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

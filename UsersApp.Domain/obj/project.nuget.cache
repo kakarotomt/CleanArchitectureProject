@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2qqIbaTHMbs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UsersApp.Domain\\UsersApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC GAMER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
