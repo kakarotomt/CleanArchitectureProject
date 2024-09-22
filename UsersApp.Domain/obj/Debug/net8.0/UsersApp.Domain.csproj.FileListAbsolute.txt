@@ -10,3 +10,4 @@ C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UsersApp.Domain\obj\Debug\net8.0
 C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UsersApp.Domain\obj\Debug\net8.0\refint\UsersApp.Domain.dll
 C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UsersApp.Domain\obj\Debug\net8.0\UsersApp.Domain.pdb
 C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UsersApp.Domain\obj\Debug\net8.0\ref\UsersApp.Domain.dll
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UsersApp.Domain\obj\Debug\net8.0\UsersApp.Domain.sourcelink.json

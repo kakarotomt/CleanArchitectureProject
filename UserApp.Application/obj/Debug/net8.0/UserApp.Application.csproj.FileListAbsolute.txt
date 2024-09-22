@@ -1,0 +1,16 @@
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\bin\Debug\net8.0\UserApp.Application.deps.json
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\bin\Debug\net8.0\UserApp.Application.dll
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\bin\Debug\net8.0\UserApp.Application.pdb
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\bin\Debug\net8.0\UsersApp.Domain.dll
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\bin\Debug\net8.0\UsersApp.Domain.pdb
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.csproj.AssemblyReference.cache
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.AssemblyInfoInputs.cache
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.AssemblyInfo.cs
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.sourcelink.json
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp..34B90502.Up2Date
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.dll
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\refint\UserApp.Application.dll
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\UserApp.Application.pdb
+C:\Users\PC GAMER\source\repos\SlnPruebaDasigno\UserApp.Application\obj\Debug\net8.0\ref\UserApp.Application.dll
