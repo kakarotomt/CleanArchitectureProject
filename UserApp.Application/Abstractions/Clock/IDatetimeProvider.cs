@@ -8,6 +8,6 @@ namespace UserApp.Application.Abstractions.Clock
 {
     public interface IDatetimeProvider
     {
-        public int CurrentDate { get; } 
+        public DateTime CurrentDate { get; } 
     }
 }

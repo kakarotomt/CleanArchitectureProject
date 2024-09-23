@@ -8,6 +8,7 @@ namespace UsersApp.Domain.Users
 {
     public enum DocumentType
     {
+        na = 0,
         cedula = 1,
         other = 2
     }

@@ -54,9 +54,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

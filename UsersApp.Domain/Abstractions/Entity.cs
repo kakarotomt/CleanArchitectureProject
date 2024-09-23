@@ -9,6 +9,10 @@ namespace UsersApp.Domain.Abstractions
     public abstract class Entity
     {
         private readonly List<IDomainEvent> _events = new();
+        protected Entity()
+        {
+            
+        }
         protected Entity(Guid id)
         {
             Id = id;

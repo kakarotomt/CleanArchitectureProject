@@ -1,6 +1,7 @@
 ﻿using System.Numerics;
 using UserApp.Application.Abstractions.Clock;
 using UserApp.Application.Abstractions.Messaging;
+using UserApp.Application.Exceptions.ConcurrencyException;
 using UsersApp.Domain.Abstractions;
 using UsersApp.Domain.Users;
 
@@ -25,19 +26,29 @@ namespace UserApp.Application.Users.CreateUser
         public async Task<Result<Guid>> Handle(CreateUserCommand request
             , CancellationToken cancellationToken)
         {
-            var user = User.Create(
-                request.names, 
-                request.lastNames, 
-                request.data, 
-                request.auditData, 
-                request.documentType
-                );
+            try
+            {
+                var user = User.Create(
+                    request.firstName,
+                    request.secondName,
+                    request.firstLastname,
+                    request.secondLastname,
+                    request.birthday,
+                    request.salary,
+                    request.createDate,
+                    request.modifiedDate
+                    );
 
-            _userRepository.Add(user);
+                _userRepository.Add(user);
 
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-            return user.Id;
+                return user.Id;
+            }
+            catch (ConcurrencyException ex)
+            {
+                return Result.Failure<Guid>(new Error("creacion usuario", "Error en la creacion de un usuario"));
+            }
         }
     }
 }

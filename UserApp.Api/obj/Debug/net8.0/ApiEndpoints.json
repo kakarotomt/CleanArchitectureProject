@@ -1,0 +1,61 @@
+[
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstLastname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "{firstName}/{firstLastname}/{page}"
+  },
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "PostUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserRequest",
+        "Type": "UserApp.Api.Controllers.User.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

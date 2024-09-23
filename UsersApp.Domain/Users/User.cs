@@ -5,43 +5,62 @@ namespace UsersApp.Domain.Users
 {
     public sealed class User : Entity
     {
+        public User()
+        {
+            
+        }
         private User(Guid id,
-            Name names,
-            Lastname lastNames,
-            UserData data,
-            AuditData auditData,
-            DocumentType documentType
+            FirstName firstName, 
+            SecondName secondName, 
+            FirstLastname firstLastname, 
+            SecondLastname secondLastname, 
+            Birthday birthday, 
+            Salary salary, 
+            CreateDate createDate, 
+            ModifiedDate modifiedDate
             ) : base(id)
         {
-            Names = names;
-            LastNames = lastNames;
-            Data = data;
-            AuditData = auditData;
-            DocumentType = documentType;
+            FirstNames = firstName;
+            SecondNames = secondName;
+            FirstLastNames = firstLastname;
+            SecondLastNames = secondLastname;
+            Birthdays = birthday;
+            Salarys = salary;
+            CreateDates = createDate;
+            ModifiedDates = modifiedDate;
         }
 
-        public Name? Names { get; set; }
-        public Lastname? LastNames { get; set; }
-        public UserData? Data { get; private set; }
-        public AuditData? AuditData { get; private set; }
-        public DocumentType DocumentType { get; private set; }
+        public FirstName FirstNames { get; set; }
+        public SecondName? SecondNames { get; set; }
+        public FirstLastname FirstLastNames { get; set; }
+        public SecondLastname? SecondLastNames { get; set; }
+        public Birthday Birthdays { get; private set; }
+        public Salary? Salarys{ get; private set; }
+        public CreateDate? CreateDates { get; private set; }
+        public ModifiedDate? ModifiedDates { get; private set; }
 
-
-        public static User Create(
-            Name names,
-            Lastname lastNames,
-            UserData data,
-            AuditData auditData,
-            DocumentType documentType)
+        public static User Create(FirstName firstName,
+            SecondName secondName,
+            FirstLastname firstLastname,
+            SecondLastname secondLastname,
+            Birthday birthday,
+            Salary salary,
+            CreateDate createDate,
+            ModifiedDate modifiedDate)
         {
             var user = new User(
-                  Guid.NewGuid()
-                , names
-                , lastNames
-                , data
-                , auditData
-                , documentType);
+                  Guid.NewGuid(),
+                  firstName, 
+                  secondName, 
+                  firstLastname, 
+                  secondLastname, 
+                  birthday, 
+                  salary, 
+                  createDate, 
+                  modifiedDate);
+
             user.RiseDomainEvent(new UserCreatedDomainEvent(user.Id));
+
             return user;
         }
 

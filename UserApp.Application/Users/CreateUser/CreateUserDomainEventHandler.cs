@@ -9,7 +9,13 @@ namespace UserApp.Application.Users.CreateUser
     {
 
         private readonly IUserRepository _userRepository;
-        private readonly IEmailService _emailService;
+        //private readonly IEmailService _emailService;
+
+        public CreateUserDomainEventHandler(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+            //_emailService = emailService;
+        }
 
         public async Task Handle(UserCreatedDomainEvent notification, CancellationToken cancellationToken)
         {
@@ -17,7 +23,7 @@ namespace UserApp.Application.Users.CreateUser
             
             if (user == null) { return; }
 
-            await _emailService.SendAsync("", "", "");
+            //await _emailService.SendAsync("", "", "");
         }
     }
 }
