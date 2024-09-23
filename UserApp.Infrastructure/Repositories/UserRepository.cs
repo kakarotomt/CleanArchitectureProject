@@ -15,7 +15,7 @@ namespace UserApp.Infrastructure.Repositories
 
         }
 
-        public Task<List<User?>> GetByNameOrAsync(Guid id, CancellationToken cancellationToken = default)
+        public Task<List<User?>> GetByNameOrLastnameAsync(Guid id, CancellationToken cancellationToken = default)
         {
             throw new NotImplementedException();
         }

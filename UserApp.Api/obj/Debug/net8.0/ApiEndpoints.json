@@ -44,6 +44,43 @@
   },
   {
     "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "PutUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "createUserRequest",
+        "Type": "UserApp.Api.Controllers.User.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
     "Method": "GetUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
@@ -56,6 +93,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserApp.Api.Controllers.User.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

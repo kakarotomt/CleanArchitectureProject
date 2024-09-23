@@ -23,9 +23,9 @@ namespace UserApp.Infrastructure.Repositories
             _context.Add(entity);
         }
 
-        public void Delete(Guid id)
+        public void Delete(Guid user)
         {
-            _context.Remove(id);
+            _context.ChangeTracker.Entries<T>().FirstOrDefault(M => M.Entity.Id == user)!.State = EntityState.Deleted;
         }
 
         public void Update(T user)

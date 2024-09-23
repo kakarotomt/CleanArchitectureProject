@@ -3,7 +3,6 @@
 namespace UserApp.Api.Controllers.User
 {
     public sealed record CreateUserRequest(
-        int Id,
         FirstName FirstName ,
         SecondName SecondName,
         SecondLastname SecondLastName ,

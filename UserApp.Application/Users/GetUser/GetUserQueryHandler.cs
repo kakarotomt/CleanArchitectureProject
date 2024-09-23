@@ -27,19 +27,31 @@ namespace UserApp.Application.Users.GetUser
             var sql = """ 
                     SELECT
                         Id, 
-                        UserId,
-                        FirstName,
-                        SecondName,
-                        SecondLastName,
-                        FirstLastName,
-                        Birthday,
-                        Salary,
-                        CreateDate,
-                        ModifiedDate
+                        FirstNames,
+                        SecondNames,
+                        SecondLastNames,
+                        FirstLastNames,
+                        Birthdays,
+                        Salarys,
+                        CreateDates,
+                        ModifiedDates
                     FROM Users 
-                        where UserId = @UserId
+                        where Id = @UserId
                     """;
 
+            if(request.userId == null)
+                sql = """ 
+                    SELECT
+                        Id, 
+                        FirstNames,
+                        SecondNames,
+                        SecondLastNames,
+                        FirstLastNames,
+                        Birthdays,
+                        Salarys,
+                        CreateDates,
+                        ModifiedDates
+                    """;
 
             var user = await cn.QueryFirstOrDefaultAsync<UserResponse>(sql
                 , new

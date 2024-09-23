@@ -8,15 +8,14 @@ namespace UserApp.Application.Users.GetUser
 {
     public sealed class UserResponse
     {
-        public int Id { get; init; }
-        public Guid UserId { get; init; }
-        public string FirstName { get; init; }
-        public string SecondName { get; init; }
-        public string SecondLastName { get; init; }
-        public string FirstLastName { get; init; }
-        public DateOnly Birthday { get; init; }
-        public decimal Salary { get; init; }
-        public DateTime CreateDate { get; init; }
-        public DateTime ModifiedDate { get; init; }
+        public Guid Id { get; init; }
+        public string FirstNames { get; init; }
+        public string SecondNames { get; init; }
+        public string SecondLastNames { get; init; }
+        public string FirstLastNames { get; init; }
+        public DateTime Birthdays { get; init; }
+        public decimal Salarys { get; init; }
+        public DateTime CreateDates { get; init; }
+        public DateTime ModifiedDates { get; init; }
     } 
 }

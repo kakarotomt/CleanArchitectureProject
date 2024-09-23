@@ -7,6 +7,6 @@ using UserApp.Application.Abstractions.Messaging;
 
 namespace UserApp.Application.Users.GetUser
 {
-    public sealed record GetUserQuery(Guid userId): IQuery<UserResponse>;
+    public sealed record GetUserQuery(Guid? userId): IQuery<UserResponse>;
 }
  

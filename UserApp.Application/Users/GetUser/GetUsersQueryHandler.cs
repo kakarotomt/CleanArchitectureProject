@@ -38,13 +38,17 @@ namespace UserApp.Application.Users.GetUser
                     FROM Users 
                         where FirstNames = @firstName
                         or FirstLastnames = @firstLastname
+                    order by Id
+                    OFFSET (3 * (@page - 1)) rows
+                    fetch next 3 rows only
                     """;
 
 
             var users = await cn.QueryAsync<UserResponse>(sql
                 ,new { 
                 request.firstName,
-                request.firstLastname
+                request.firstLastname,
+                request.page
                 });
 
             return users.ToList();

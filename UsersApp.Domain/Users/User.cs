@@ -9,7 +9,7 @@ namespace UsersApp.Domain.Users
         {
             
         }
-        private User(Guid id,
+        private User(Guid Id,
             FirstName firstName, 
             SecondName secondName, 
             FirstLastname firstLastname, 
@@ -18,7 +18,7 @@ namespace UsersApp.Domain.Users
             Salary salary, 
             CreateDate createDate, 
             ModifiedDate modifiedDate
-            ) : base(id)
+            ) : base(Id)
         {
             FirstNames = firstName;
             SecondNames = secondName;
@@ -29,6 +29,7 @@ namespace UsersApp.Domain.Users
             CreateDates = createDate;
             ModifiedDates = modifiedDate;
         }
+
 
         public FirstName FirstNames { get; set; }
         public SecondName? SecondNames { get; set; }
@@ -57,6 +58,33 @@ namespace UsersApp.Domain.Users
                   birthday, 
                   salary, 
                   createDate, 
+                  modifiedDate);
+
+            user.RiseDomainEvent(new UserCreatedDomainEvent(user.Id));
+
+            return user;
+        }
+
+        public static User CreateWithId(
+            Guid id, 
+            FirstName firstName,
+            SecondName secondName,
+            FirstLastname firstLastname,
+            SecondLastname secondLastname,
+            Birthday birthday,
+            Salary salary,
+            CreateDate createDate,
+            ModifiedDate modifiedDate)
+        {
+            var user = new User(
+                  id,
+                  firstName,
+                  secondName,
+                  firstLastname,
+                  secondLastname,
+                  birthday,
+                  salary,
+                  createDate,
                   modifiedDate);
 
             user.RiseDomainEvent(new UserCreatedDomainEvent(user.Id));

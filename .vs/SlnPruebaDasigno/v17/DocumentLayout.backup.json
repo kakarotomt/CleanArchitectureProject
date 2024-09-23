@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF4453C4-B2FF-407C-A01E-A21B7CE4C2E8}|UserApp.Infrastructure\\UserApp.Infrastructure.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.infrastructure\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4453C4-B2FF-407C-A01E-A21B7CE4C2E8}|UserApp.Infrastructure\\UserApp.Infrastructure.csproj|solutionrelative:userapp.infrastructure\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4453C4-B2FF-407C-A01E-A21B7CE4C2E8}|UserApp.Infrastructure\\UserApp.Infrastructure.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4453C4-B2FF-407C-A01E-A21B7CE4C2E8}|UserApp.Infrastructure\\UserApp.Infrastructure.csproj|solutionrelative:userapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3702955-839D-4E1F-87F3-CFCF73332F55}|UserApp.Api\\UserApp.Api.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3702955-839D-4E1F-87F3-CFCF73332F55}|UserApp.Api\\UserApp.Api.csproj|solutionrelative:userapp.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\getuser\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\getuser\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\getuser\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\getuser\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\createuser\\createusercommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\createuser\\createusercommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|c:\\users\\pc gamer\\source\\repos\\slnpruebadasigno\\userapp.application\\users\\edituser\\editusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA279D94-A445-4E16-AF25-AEA049659FF6}|UserApp.Application\\UserApp.Application.csproj|solutionrelative:userapp.application\\users\\edituser\\editusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "UserApp.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "RelativeToolTip": "UserApp.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:27:15.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "UserApp.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "UserApp.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwCAAAAAQAAAAAAAAAA==",
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\GetUser\\UserResponse.cs",
+              "RelativeDocumentMoniker": "UserApp.Application\\Users\\GetUser\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\GetUser\\UserResponse.cs",
+              "RelativeToolTip": "UserApp.Application\\Users\\GetUser\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:18:51.477Z",
+              "WhenOpened": "2024-09-23T05:55:01.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "UserApp.Application\\Users\\CreateUser\\CreateUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeToolTip": "UserApp.Application\\Users\\CreateUser\\CreateUserCommandHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
+              "Title": "GetAllUsersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\GetUser\\GetAllUsersQueryHandler.cs",
+              "RelativeDocumentMoniker": "UserApp.Application\\Users\\GetUser\\GetAllUsersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\GetUser\\GetAllUsersQueryHandler.cs",
+              "RelativeToolTip": "UserApp.Application\\Users\\GetUser\\GetAllUsersQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:12:51.489Z",
+              "WhenOpened": "2024-09-23T05:54:06.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "UserApp.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "RelativeToolTip": "UserApp.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:12:46.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Api\\Controllers\\User\\UserController.cs",
               "RelativeDocumentMoniker": "UserApp.Api\\Controllers\\User\\UserController.cs",
               "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Api\\Controllers\\User\\UserController.cs",
               "RelativeToolTip": "UserApp.Api\\Controllers\\User\\UserController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwCQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:08:38.298Z",
+              "WhenOpened": "2024-09-23T05:03:28.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserCommandValidation.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommandValidation.cs",
+              "RelativeDocumentMoniker": "UserApp.Application\\Users\\CreateUser\\CreateUserCommandValidation.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\CreateUser\\CreateUserCommandValidation.cs",
+              "RelativeToolTip": "UserApp.Application\\Users\\CreateUser\\CreateUserCommandValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:35:26.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\EditUser\\EditUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserApp.Application\\Users\\EditUser\\EditUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\EditUser\\EditUserCommandHandler.cs",
+              "RelativeToolTip": "UserApp.Application\\Users\\EditUser\\EditUserCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:02:05.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserApp.Application\\Users\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\SlnPruebaDasigno\\UserApp.Application\\Users\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeToolTip": "UserApp.Application\\Users\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:49:40.431Z",
               "EditorCaption": ""
             }
           ]
